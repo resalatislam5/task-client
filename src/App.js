@@ -168,12 +168,12 @@ function App() {
           error && 
           <p className='error'>{error}</p>
         }
-              { !userData &&
-                <div className="form-group">
-              <input type="checkbox" onClick={() =>setTerms(!terms)} id="javascript" />
-              <label htmlFor="javascript">Agree to terms</label>
+             
+          <div className="form-group">
+            <input type="checkbox" onClick={() =>setTerms(!terms)} id="javascript" />
+            <label htmlFor="javascript">Agree to terms</label>
           </div>
-          }
+          
               {
                 terms ?
                 <>
